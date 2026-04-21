@@ -5,8 +5,9 @@ Walter Multi-Source MQTT Location Tracker
 
 Tracker uses multiple location sources in stages - GNSS as
 1st priority, CellID location data as 2nd then if all else 
-fails, uses Google Geolocation using WiFi AP + CellID data &
-publishes results via MQTT at set interval (adjustable below).
+fails, uses Google Geolocation using WiFi AP + CellID data.
+
+Publishes results via MQTT at set interval (adjustable below).
 
 Walter is also setup to use LTE-M PSM (power saving) & deep
 sleep between publish interval.
